@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  background: linear-gradient(29.83deg, #000000 0%, #255b67 60%, #b19878 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+}
+
+.header_img-logo {
+  height: 2.5rem;
+  animation: rotate 1s linear;
+}
+
+.header_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header_title-img {
+  height: 5rem;
+  filter: invert(1);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

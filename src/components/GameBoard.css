@@ -1,0 +1,12 @@
+#gameBoard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem; */
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 8px;
+}

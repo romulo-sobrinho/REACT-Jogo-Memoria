@@ -1,0 +1,39 @@
+:root {
+  --max-width: 1200px;
+  --text-primary: 'Griffy', cursive;
+  --background-color-projetos: linear-gradient(29.83deg, #59020a 0%, #8c4608 70%, #b19878 100%);
+  /*#8E0E00*/
+  --background-color-gray: #f9fbfc;
+  --background-color-card: #f9fbfc;
+  --box-shadow-card: 5px 5px 15px 1px #59020a55;
+  --box-shadow-card-hover: 0 0 15px #b19878;
+  --border-radius: 0.8rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+}
+
+html {
+  font-size: var(--font-size-html);
+}
+
+body {
+  font-family: var(--text-primary);
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .container-card {
+    flex-wrap: wrap;
+  }
+
+}
